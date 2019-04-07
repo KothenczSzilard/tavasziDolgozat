@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text_view_qr"
+        android:text="QR Code Generator"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_generate"
+        android:text="Generate"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Text_view_qr"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_back2"
+        android:text="Back"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Button_generate"
+        android:layout_marginTop="10dp"/>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/black"
+        android:id="@+id/view"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@id/view">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Image_View_qr"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

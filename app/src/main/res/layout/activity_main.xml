@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_primary_dark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text_view_menü"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Menü"
+        android:textSize="30dp"
+        android:textColor="@color/zxing_status_text"/>
+
+    <Button
+        android:id="@+id/Button_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Text_view_menü"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="WIFI"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Button_wifi_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_wifi"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="WIFI info"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Button_qr_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_wifi_info"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="QR code"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
